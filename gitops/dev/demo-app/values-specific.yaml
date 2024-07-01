@@ -4,7 +4,7 @@ service:
 keptn:
   appContext:
     preDeploymentTasks:
-    - maintenance-window-check
+      - maintenance-window-check
     postDeploymentTasks:
       - load-test
     postDeploymentEvaluations:
