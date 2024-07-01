@@ -10,7 +10,8 @@ repo:
 
 keptn:
   appContext:
-    preDeploymentTasks: []
+    preDeploymentTasks: 
+    - maintenance-window-check
     postDeploymentTasks: []
     postDeploymentEvaluations: []
     promotionTasks: []
